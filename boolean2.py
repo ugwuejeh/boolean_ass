@@ -1,7 +1,10 @@
+# Write a Python function that takes 10 lists and returns True if they have 
+# at least one common member
+
 List1=[10,2,3,] 
 List2=[10, 4, 5] 
 List3= [10, 6,7]
-List4= [17, 8,10]
+List4= [17, 3,10]
 List5= [18, 11,12, 10]
 List6= [19, 10,14 ]
 List7= [20,15,16, 10]
@@ -27,9 +30,9 @@ def common_member():
                                      for i in List9 :
                                          for j in List10 :
                                                if (a==b==c==d==e==f==g==h==i==j) :
-                                                  print (bool(common_member)) 
+                                                  print (bool(a)) 
+                                               
   
               
               
 common_member()
- 
